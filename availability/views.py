@@ -303,7 +303,8 @@ class DeleteFacility(View):
         # return HttpResponse("delete called")
 
 
-# hospital user log out
+""" # hospital user log out
 def HospitalLogout(request):
     if request.method == "GET":
         return redirect("hospitallogin")
+ """
