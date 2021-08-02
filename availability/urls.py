@@ -15,6 +15,5 @@ urlpatterns = [
          name="updatefacility"),
     path("deletefacility", views.DeleteFacility.as_view(),
          name="deletefacility"),
-    path("logout", views.HospitalLogout,
-         name="logout"),
+    # path("logout", views.HospitalLogout,name="logout"),
 ]
